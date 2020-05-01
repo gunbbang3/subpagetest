@@ -4,11 +4,41 @@ author: Wootaik Lee (wootaik@gmail.com)
 date: 2020-03-01
 ---
 
-# Modular Programming
+# 객체지향 프로그래밍: 모듈화 프로그래밍이란?
+
+
 
 ## 시작하는 질문
 
-(질문) 객체지향 프로그래밍은 꼭 객체지향 프로그램 언어를 사용해야만 한다?
+객체지향 프로그래밍은 무엇일까? 
+
+객체지향 프로그래밍은 객체지향 프로그램 언어(C++, Java 같은) 를 사용해야만 한다?
+
+------
+
+
+
+## References
+
+[The benefits of architecture & module *in xmc tutorial*](https://xmctutorial.readthedocs.io/ko/latest/ProgModuleMultipleFiles/index.html#the-benefits-of-architecture-module)
+
+
+
+**[Example Code]**
+
+* NONE
+
+
+
+**[강의 영상]**
+
+* [객체지향 프로그래밍이란?](https://drive.google.com/file/d/1WJAGiKlqxzWe2TsnW8NSQY8y_lNfE7ik/preview)
+
+* [모듈화 설계 방법](https://drive.google.com/file/d/1OR9xyQEB8eNbtNHmGtTy9i8KALeAXLLf/preview)
+
+
+
+------
 
 
 
@@ -16,17 +46,6 @@ date: 2020-03-01
 
 * 객체지향 프로그래밍이란 무엇인지 이해한다.
 * 모듈화 프로그래밍을 할 수 있도록 한다.
-
-
-
-## References
-* 
-
-
-
-**[Example Code]**
-
-* 
 
 
 
@@ -170,8 +189,8 @@ date: 2020-03-01
 * 모듈 구현을 위해서 여러 파일로 프로그래밍 하는 방법을 알아야 한다.
     * C 와 Header 로 구분하는 방법
     * 모듈간 인터페이스 하는 방법
-    * 변수와 함수의 Scope 와 Life-time
-    * 체계적인 인클루드 방법(헤더파일의 인클루드 구조)
+    * 변수와 함수의 Scope 와 Life-time 
+    * 체계적인 인클루드 방법
 
     
 
@@ -187,20 +206,59 @@ date: 2020-03-01
 
 
 
-### 모듈사이의 인터페이스 방법
+### 모듈사이의 자료 공유 방법
 
+* Data와 함수를 묶는 방법
+
+    * Data와 Data를 생성하는 함수를 묶는 방법
+    * Data와 Data를 사용하는 함수를 묶는 방법
+    
+* Data들만 모아서 묶는 방법
+  
 * Data 공유 방법
 
-    * 전역변수 vs. 인터페이스 함수
+    * 전역변수 
+
+    * 인터페이스 함수
+
+        
+    
+
+![ModularProgramming-DataSharing](images/ModularProgramming-DataSharing.svg)
+
+* `ErrorCode` in Application Object
+
+    * `ErrorCode` Public Var 혹은
+    * `GetErrorCode()` Interface 함수
+
+* `BeltTensionRef` in Actuator Object
+
+    * `BeltTensionRef` 혹은
+    * `SetBeltTensionRef()`
+
+* `State` in Global Variable Object
+
+    * `enuState` 혹은
+    * `GetState()` 와 `SetState()`
 
     
 
-    
+
 
 ### 예제
 
+![ModularProgramming-MoBeE_AppModule](images/ModularProgramming-MoBeE_AppModule.svg)
+
+### Exercise
+
+![ModularProgramming-DataSharing](images/ModularProgramming-DataSharing.svg)
+
+* 위의 예제에서 Application Object, Actuator Object, Global Variable Object 를 2단계 가시성을 갖는 모듈로 설계해 보세요.
+
+    * Global Variable로 자료를 교환하는 경우
+
+    * Interface Function을 사용하는 경우 (Get, Set 함수 이용)
+
+        
 
 
-## 마치며...
-
-[![Analytics](https://ga-beacon.appspot.com/UA-137501847-2/AurixTutorial/docs/_Template.md?pixel)](https://github.com/realsosy/aurixtutorial)
