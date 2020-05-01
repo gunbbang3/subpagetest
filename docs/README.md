@@ -10,7 +10,22 @@ date: 2020 04 01
 
 ## Prerequisite
 
+이 강좌는 C 언어에 대한 기본적인 이해와 활용 능력을 전제로 하고 있습니다.
 
+
+
+기본 환경으로 Eclipse 와 MinGW를 사용하고 있습니다.
+
+환경 설치와 관련해서는 다음의 링크를 참고하여 환경을 준비하여 주시기 바랍니다.
+
+* [MinGW, Eclipse 의 설치와 활용](https://drive.google.com/open?id=1FkhYFFAEmGat5U7Kgm_GGp6buNXcvpAE)
+
+
+
+임베디드 프로그래밍을 할 때에 포인터와 구조체의 이해는 매우 중요합니다. 기초가 부족하다고 생각되시는 분은 다음의 강좌로 이해도를 높이시기 바랍니다.
+
+* [Pointer Explained](https://drive.google.com/open?id=1cKt-nrCICur0RolgPjs3Vnoqht87TLCC)
+* [Structure Explained](https://drive.google.com/open?id=1oL-zrpJo9GTqf-EiNhd8paEi6IkrKi-v)
 
 
 
@@ -82,12 +97,13 @@ date: 2020 04 01
     * `i16Abs()`, `i16Add()`,`i16AbsSat()`,  `i16AddSat()`
     
 * UserLib : 기능 라이브러리 예제 
-    
+  
         * C 변수와 함수의 Scope 와 Life-time 에서 설명
+    
     * `Hyst()`, `Ramp()`
     
 * FltCtrl Lib
-    
+  
         * Demo: `fltIirFilter1()`,  `fltPiCtrlP()`,  `fltLut1D()`
     * Exercise: `fltMaFilter()`,  `fltPiCtrlR()`
     
