@@ -24,25 +24,52 @@ date: 2020-03-01
 
 **[Example Code]**
 
-* 
+* IntMath lib: C 라이브러리 예제 
+    * 모듈화를 위한 코드 템플릿에서 설명
+    * `i16Abs()`, `i16Add()`,`i16AbsSat()`,  `i16AddSat()`
+* UserLib : 기능 라이브러리 예제 
+
+    * C 변수와 함수의 Scope 와 Life-time 에서 설명
+    * `Hyst()`, `Ramp()`
+
+* FltCtrl Lib
+
+    * Demo: `fltIirFilter1()`,  `fltPiCtrlP()`,  `fltLut1D()`
+    * Exercise: `fltMaFilter()`,  `fltPiCtrlR()`
 
 **[강의 영상]**
 
-*   
+*   [Library의 종류와 구성 방법]()
 
 ## Experiment & Exercise
 
 **[자료]**
 
-*
+* EST_Module_Exercise/markdown/Design_Ctrl.pdf
 
 **[Code]**
 
-* 
+* EST_Module_Exercise/src/
+    * FltCtrl.c, .h
+* EST_Module_Exercise/test/
+    * test_fltIirFilter1.c
+    * test_fltMaFilter.c
+    * test_fltPiCtrlP.c
+    * test_fltPiCtrlR.c
+    * test_Lut1D.c
 
 **[강의영상]**
 
-* 
+* [IIR Filter 설계, 구현, 시험]()
+* [PI Controller (Parallel form) 설계, 구현, 시험]()
+* [1차원 Look-up 함수 설계, 구현, 시험]()
+
+**[Exercise 설명 - 구현 실습]**
+
+* [Moving Average Filter의 설계, 시험]() 
+* [PI Controller (Recurrent form)설계, 시험]()
+
+
 
 ------
 
@@ -85,7 +112,7 @@ date: 2020-03-01
 
 * 동작이 복잡하고 크다. 그리고 여러 곳에서 사용되어진다. => 공통으로 추출함으로 ROM 사용을 줄일 수 있다.
 * 표준 C 언어로만 프로그래밍 한다. 즉 PC 시스템에서도 수행할 수 있다.
-3. 정적인 데이터를 가질 수 있고, 이 경우 사용할 때마다 개별 인스턴스를 사용하도록 한다.
+* 정적인 데이터를 가질 수 있고, 이 경우 사용할 때마다 개별 인스턴스를 사용하도록 한다.
 
 [Example] UserLib library
 

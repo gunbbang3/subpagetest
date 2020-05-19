@@ -13,6 +13,25 @@ date: 2020-03-01
 
 
 
+## References
+
+* NONE
+
+**[Example Code]**
+
+* /include/
+    * PlatformTypes.h
+    * PlatformMingw32.h
+* /src/
+    * CheckCompiler.c
+
+**[강의 영상]**
+
+* [Include 구조 설계 방법](https://drive.google.com/open?id=1-domEgxfBXBaHZnovtcVfTGlC3kO2-Jg)
+* [include 구조: MinGW32 C99  활용시](https://drive.google.com/open?id=1gE4JBr8AJUy6y6WT4skKjXE3aX6dkyXQ)
+
+
+
 ## 서론
 
 * 헤더파일에 대하여서도 많은 경우에 충분히 고려하여 설계하지 않는 경우가 대부분이다.
@@ -83,11 +102,10 @@ date: 2020-03-01
 
 * `GLB_DataTypes.h`: 자료형의 정의를 위한 헤더 
 
-    * 각 자료형의 크기는 C 언어의 표준이 아님: 컴파일러마다 프로세스마다 다를 수 있음.
-    * 소프트웨어의 포팅을 돕고, 정수형의 오버플로우를 확인하기 위하여 명시적으로 자료형을
-        선언하여 사용
-
-    ```c
+    * 각 자료형의 크기는 C 언어의 표준이 아님: 컴파일러마다 프로세서마다 다를 수 있음.
+    * 소프트웨어의 포팅을 돕고, 정수형의 오버플로우를 확인하기 위하여 명시적으로 자료형을 선언하여 사용
+    
+```c
     /* GLB_DataTypes.h */
     /**** C type extensions ****/
     typedef void 			void_t;
@@ -107,7 +125,7 @@ date: 2020-03-01
     /**** C pointer extensions ****/
     typedef void* 			ptr_t;
     typedef unsigned char* 	str_t;
-    ```
+```
 
 
 

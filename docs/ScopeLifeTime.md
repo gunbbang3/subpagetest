@@ -22,9 +22,9 @@ date: 2020-03-01
 
 **[강의 영상]**
 
-* [변수와 함수의 Scope와 Life-time]()
+* [변수와 함수의 Scope와 Life-time](https://drive.google.com/open?id=1Y-L_W4hO0vLT9yQR3Q05qlEDkmSkV19g)
 
-* [변수와 관련된 좀 더 깊이있는 이야기]()
+* [변수와 관련된 좀 더 깊이있는 이야기](https://drive.google.com/open?id=171N17Bor3TZMEzyfJSEumDBqrUyH-oXL)
 
     
 
@@ -161,11 +161,11 @@ date: 2020-03-01
 
 ## 변수의 Life-time
 
-* 정적 변수에 할당되는 변수
+* 정적 영역에 할당되는 변수
     * Exported Variable, File Scope Variable, Static Variable
     * 프로그램의 시작과 함께 영역이 할당되고 값이 지속됨
     * 선언과 함께 초기화 여부에 따라 BSS 혹은 Data 영역에 할당
-    * 초기값은 Rom의 CONST 영역에 할당
+    * 초기값은 ROM의 CONST 영역에 할당
 
 * 스택(+Register)에 할당되는 변수
     * Local Variable
