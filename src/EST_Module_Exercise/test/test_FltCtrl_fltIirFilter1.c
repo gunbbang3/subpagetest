@@ -20,9 +20,9 @@ void test_fltIirFilter1(void)
 	fltIir_t my_iir = FLT_IIR_FILTER1_DEFAULT;
 
     // filter coefficients
-    my_iir.flt_b0           = (float_t)  0.1 ;
+    my_iir.flt_b0           = (float_t)  0.091 ;
     my_iir.flt_b1           = (float_t)  0.0 ;
-    my_iir.flt_a1           = (float_t) -0.9 ;
+    my_iir.flt_a1           = (float_t) -0.909 ;
 
     fprintf(fp, "idx,  input,  output\n");
 

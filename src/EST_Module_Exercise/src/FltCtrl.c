@@ -73,19 +73,19 @@ float fltIirFilter1(float flt_in, fltIir_t * pParam)
      * m2   = b1*x(k-1)
      * m3   = a1*y(k-1)
      * acc  = m1 + (m2 - m3)
-     * y(k) = acc*2
+     * y(k) = acc
      */
 
-    // m1   = b0*x(k), number format Q2.30
+    // m1   = b0*x(k)
     flt_m1 = pParam->flt_b0 * flt_in;
 
-    // m2   = b1*x(k-1), number format Q2.30
+    // m2   = b1*x(k-1)
     flt_m2 = pParam->flt_b1 * pParam->flt_in_buffer[0];
 
-    // m3   = a1*y(k-1), number format Q2.30
+    // m3   = a1*y(k-1)
     flt_m3 = pParam->flt_a1 * pParam->flt_acc_buffer[0];
 
-    // acc  = m1+m2-m3, number format Q1.15
+    // acc  = m1+m2-m3
     flt_acc = flt_m1 + (flt_m2 - flt_m3);
 
     // Storing filter states in the buffer

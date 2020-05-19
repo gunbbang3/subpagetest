@@ -92,7 +92,7 @@ void CheckSize(void)
   printf("Size of int8_t     :%3d\n", sizeof(int8_t));
   printf("Size of int16_t    :%3d\n", sizeof(int16_t));
   printf("Size of int32_t    :%3d\n", sizeof(int32_t));
-  printf("Size of int64_t 	 :%3d\n", sizeof(int64_t));
+  printf("Size of int64_t    :%3d\n", sizeof(int64_t));
   printf("Size of float_t    :%3d\n", sizeof(float_t));
   printf("Size of double_t   :%3d\n", sizeof(double_t));
   printf("\n");

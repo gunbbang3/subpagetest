@@ -69,32 +69,32 @@ typedef struct{
 
 typedef struct{
 	float 	fltPGain; 		/*!< K_p */
-    float		fltIGain;		/*!< K_i * T_s / 2*/
-    float 	fltIGain_Pre; 	/*!< K_i * T_s / 2*/
-    float		fltUI_Pre;		/*!< u_i[k-1] */
-    float 	fltE_Pre;		/*!< e[k-1] */
-    float 	fltUpperLimit;
-    float 	fltLowerLimit;
-    uint16_t	u16LimitFlag;	/*! Set if u[k] is out of range */
+	float	fltIGain;		/*!< K_i * T_s / 2*/
+	float 	fltIGain_Pre; 	/*!< K_i * T_s / 2*/
+	float	fltUI_Pre;		/*!< u_i[k-1] */
+	float 	fltE_Pre;		/*!< e[k-1] */
+	float 	fltUpperLimit;
+	float 	fltLowerLimit;
+	uint16_t	u16LimitFlag;	/*! Set if u[k] is out of range */
 } fltPiCtrlP_t;
 
 typedef struct{
-    float		fltEGain;		/*!< Gain for e[k] */
-    float 	fltEGain_Pre;	/*!< Gain for e[k-1] */
-    float		fltU_Pre;		/*!< u[k-1] */
-    float 	fltE_Pre;		/*!< e[k-1] */
-    float 	fltUpperLimit;
-    float 	fltLowerLimit;
-    uint16_t	u16LimitFlag;	/*! Set if u[k] is out of range */
+	float		fltEGain;		/*!< Gain for e[k] */
+	float 		fltEGain_Pre;	/*!< Gain for e[k-1] */
+	float		fltU_Pre;		/*!< u[k-1] */
+	float 		fltE_Pre;		/*!< e[k-1] */
+	float 		fltUpperLimit;
+	float 		fltLowerLimit;
+	uint16_t	u16LimitFlag;	/*! Set if u[k] is out of range */
 } fltPiCtrlR_t;
 
 typedef struct{
     float		flt_i2x_slope;		/*!< slope */
     int16_t 	i16_i2x_offset;		/*!< offset */
-    float*	flt_tbl_ptr;		/*!< pointer to table */
+    float*		flt_tbl_ptr;		/*!< pointer to table */
     int16_t 	i16_num_of_elements;/*!< Number of elements */
     int16_t 	i16_idx;			/*!< index */
-    float 	flt_remainder;		/*!< remainder */
+    float 		flt_remainder;		/*!< remainder */
 } fltLut1D_t;
 
 /******************************************************************************
