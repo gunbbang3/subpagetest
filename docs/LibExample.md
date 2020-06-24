@@ -39,7 +39,7 @@ date: 2020-03-01
 
 **[강의 영상]**
 
-*   [Library의 종류와 구성 방법]()
+*   [Library의 종류와 구성 방법](https://drive.google.com/file/d/1gVnXNs8KRiqGDg8t6w-JIFtPp9CJYGEU/view?usp=sharing)
 
 ## Experiment & Exercise
 
@@ -60,14 +60,26 @@ date: 2020-03-01
 
 **[강의영상]**
 
-* [IIR Filter 설계, 구현, 시험]()
-* [PI Controller (Parallel form) 설계, 구현, 시험]()
-* [1차원 Look-up 함수 설계, 구현, 시험]()
+* IIR Filter
+    * [IIR Filter 설계](https://drive.google.com/file/d/10tPIrYRqRq-_P1twnlc2eTfAt1QJoaoc/view?usp=sharing)
+    * [IIR Filter 구현](https://drive.google.com/file/d/1bZh3sAO5qEPVEt7DPI0PJd3X2SgHl8yp/view?usp=sharing)
+    * [IIR Filter 시험](https://drive.google.com/file/d/1e9TmYn7BW3ZTdpmnbq_MTiwre7zCyKVK/view?usp=sharing)
+* PI Controller (Parallel form)
+    * [PI Controller (Parallel form) 설계](https://drive.google.com/file/d/1ze03PQcIVrx_ydV-ibdUz6FIG3P6cWnZ/view?usp=sharing)
+    * [PI Controller (Parallel form) 구현](https://drive.google.com/file/d/1Ylanp82TT6PWTUoKjne5hCviVnUA-brA/view?usp=sharing)
+    * [PI Controller (Parallel form) 시험](https://drive.google.com/file/d/1XA5kqUH1D6MLr3wja-AhG79FEYVIjA-v/view?usp=sharing)
+* _To do 1차원 Look-up 함수 설계, 구현, 시험_
 
 **[Exercise 설명 - 구현 실습]**
 
-* [Moving Average Filter의 설계, 시험]() 
-* [PI Controller (Recurrent form)설계, 시험]()
+* Moving Average Filter의 설계, 시험
+    * [Moving Average Filter의 설계](https://drive.google.com/file/d/1d959Pb2HUTEmRw4gG7QCuKgQQnuo0Fb0/view?usp=sharing) 
+    * [Moving Average Filter의 시험](https://drive.google.com/file/d/1JLEXuN7i-pCw7uEetKfPLKL6I6VqTYv2/view?usp=sharing) 
+    * [Moving Average Filter의 구현](https://drive.google.com/file/d/1rK--JKYZ5Ot1B0GDz50P2y5W1a_R6Cg7/view?usp=sharing) 
+* PI Controller (Recurrent form)
+    * [PI Controller (Recurrent form) 설계](https://drive.google.com/file/d/1lPDFCBqV5RFrpv1YJEXoTmmj9hkhU5hf/view?usp=sharing)
+    * [PI Controller (Recurrent form) 시험](https://drive.google.com/file/d/1ONq3sQ-2LW4ln5kqlAeNJhRFz1S3v3fq/view?usp=sharing)
+    * [PI Controller (Recurrent form) 구현](https://drive.google.com/file/d/1sfIzOOrPMEjW_bBUiGTA-Frg-h5QefgI/view?usp=sharing)
 
 
 

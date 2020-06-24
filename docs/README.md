@@ -51,21 +51,17 @@ date: 2020 04 01
 
 
 
-## Example Project
-
-* [EST_Module_Exercise.zip](https://drive.google.com/open?id=1lqG-vVjvRZo1ia-wUIrsnUuGds661ot6)
-
-
-
-
-
 ## ToC
 
 
 
 ### **Part I** 모듈화 설계 및 구현 방법
 
+**[Example Project]**
 
+* [EST_Module_Exercise.zip](https://drive.google.com/open?id=1lqG-vVjvRZo1ia-wUIrsnUuGds661ot6)
+
+    
 
 * [객체지향 프로그래밍: 모듈화 프로그래밍이란?](./ModularProgramming.md)
 
@@ -84,7 +80,7 @@ date: 2020 04 01
     * [모듈화 구현 방법과 코드 템플릿](https://drive.google.com/file/d/11rVY1j5vhZt9zHR8E1VLFXA4SAGprZQY/preview)
     * [모듈 만들기 Exercise 설명](https://drive.google.com/file/d/1QYOnF08XWJvdkABWVE9Sf0g4pirsXp8O/preview)
 
-    **[강의 실습 영상]**
+    **[실습 영상]**
 
     * [Integer 연산 관련 예제 설명](https://drive.google.com/file/d/1e6H5nBCv2Hr_9nlxSbGhaSilG7oD3L3M/preview)
     * [Integer 연산 라이브러리 모듈 만들기](https://drive.google.com/file/d/1Gdlr70y65__ydx5UpZb2CCx_o_fc99rI/preview)
@@ -108,7 +104,7 @@ date: 2020 04 01
 
     * [변수와 관련된 좀 더 깊이있는 이야기](https://drive.google.com/open?id=171N17Bor3TZMEzyfJSEumDBqrUyH-oXL)
 
-    **[강의 실습 영상]**
+    **[실습 영상]**
 
     * [Unity 간략 설명](https://drive.google.com/file/d/11w7y53zlyKFL466XA88T4Xuesxvpwp14/preview) 
     * [Hystersis 함수 설명과 모듈화 하기](https://drive.google.com/file/d/1nBxdQqpYLkiaClMd5ebEZ0ipYS9XPibe/preview)
@@ -119,65 +115,114 @@ date: 2020 04 01
 
 * [라이브러리 예제](LibExample.md)
 
-    * IntMath lib: C 라이브러리 예제 
+    **[강의 영상]**
 
-        * 모듈화를 위한 코드 템플릿에서 설명
-        * `i16Abs()`, `i16Add()`,`i16AbsSat()`,  `i16AddSat()`
-        
-    * UserLib : 기능 라이브러리 예제 
+    *   [Library의 종류와 구성 방법](https://drive.google.com/file/d/1gVnXNs8KRiqGDg8t6w-JIFtPp9CJYGEU/view?usp=sharing)
     
-        * C 변수와 함수의 Scope 와 Life-time 에서 설명
-    	* `Hyst()`, `Ramp()`
+    **[실습 영상]**
     
-	* FltCtrl Lib
+    * IIR Filter
+        * [IIR Filter 설계](https://drive.google.com/file/d/10tPIrYRqRq-_P1twnlc2eTfAt1QJoaoc/view?usp=sharing)
+        * [IIR Filter 구현](https://drive.google.com/file/d/1bZh3sAO5qEPVEt7DPI0PJd3X2SgHl8yp/view?usp=sharing)
+        * [IIR Filter 시험](https://drive.google.com/file/d/1e9TmYn7BW3ZTdpmnbq_MTiwre7zCyKVK/view?usp=sharing)
+	* PI Controller (Parallel form)
+        * [PI Controller (Parallel form) 설계](https://drive.google.com/file/d/1ze03PQcIVrx_ydV-ibdUz6FIG3P6cWnZ/view?usp=sharing)
+        * [PI Controller (Parallel form) 구현](https://drive.google.com/file/d/1Ylanp82TT6PWTUoKjne5hCviVnUA-brA/view?usp=sharing)
+        * [PI Controller (Parallel form) 시험](https://drive.google.com/file/d/1XA5kqUH1D6MLr3wja-AhG79FEYVIjA-v/view?usp=sharing)
+    * _To do 1차원 Look-up 함수 설계, 구현, 시험_
     
-        * Demo: `fltIirFilter1()`,  `fltPiCtrlP()`,  `fltLut1D()`
-    	* Exercise: `fltMaFilter()`,  `fltPiCtrlR()`
+    **[연습 영상]**
+    
+    * Moving Average Filter의 설계, 시험
+        * [Moving Average Filter의 설계](https://drive.google.com/file/d/1d959Pb2HUTEmRw4gG7QCuKgQQnuo0Fb0/view?usp=sharing) 
+        * [Moving Average Filter의 시험](https://drive.google.com/file/d/1JLEXuN7i-pCw7uEetKfPLKL6I6VqTYv2/view?usp=sharing) 
+        * [Moving Average Filter의 구현](https://drive.google.com/file/d/1rK--JKYZ5Ot1B0GDz50P2y5W1a_R6Cg7/view?usp=sharing) 
+    * PI Controller (Recurrent form)
+        * [PI Controller (Recurrent form) 설계](https://drive.google.com/file/d/1lPDFCBqV5RFrpv1YJEXoTmmj9hkhU5hf/view?usp=sharing)
+        * [PI Controller (Recurrent form) 시험](https://drive.google.com/file/d/1ONq3sQ-2LW4ln5kqlAeNJhRFz1S3v3fq/view?usp=sharing)
+        * [PI Controller (Recurrent form) 구현](https://drive.google.com/file/d/1sfIzOOrPMEjW_bBUiGTA-Frg-h5QefgI/view?usp=sharing)
     
     
     
-    
-
-
 
 ### PART II Embedded Control System을 위한 SW Architecture 설계
 
+**[Example Project]**
+
+* [EST_MoBeE_Excercise.zip](https://drive.google.com/file/d/1lqG-vVjvRZo1ia-wUIrsnUuGds661ot6/view?usp=sharing)
+
+
+
 * [소프트웨어 구조와 프래임워크](./ArchFramework.md)  - 상위설계
   
-    * 1
-    * 모듈과 계층구조
+    **[강의 영상]**
     
+    * [SW 구조로 얻을 수 있는 장점](https://drive.google.com/file/d/16YGYYwft4EZqYiwkK8qQ4c6kd0SyQ_VS/view?usp=sharing)
+    * [하드웨어 추상화 계층과 운영체계 추상화 계층](https://drive.google.com/file/d/1hl8litHF3RJydke84yXvOuQRacX2Gqlv/view?usp=sharing)
+    * [물리계층, 실행 프래임워크, 그리고 라이브러리](https://drive.google.com/file/d/1KMc9GU6T__c0KBvnHtZf-5BgIdjTnwT8/view?usp=sharing)
+    
+    **[실습 영상]**
+    
+    * [요구사항 정리](https://drive.google.com/file/d/1W8jICtiDo7aHKQMBWXFh4SWfrkXKnaKb/view?usp=sharing) (Optional)
+    * [시스템 요구사항 명세화](https://drive.google.com/file/d/1nIabKiyQcJyHFxzXwLu0v2TCQ1c568Bm/view?usp=sharing) (Optional)
+    * [소프트웨어 상위 레벨 설계](https://drive.google.com/file/d/1zn5YwPK3NtXopJgbsLcntMGEYePr1zJp/view?usp=sharing)
+    * [소프트웨어 상위레벨 설계에 따른 파일 관리](https://drive.google.com/file/d/1cIMAFbdryAcBhyWxMcE25PqJjqTNFruh/view?usp=sharing)
+    * [SensorSWC 구조 구현](https://drive.google.com/file/d/1GbUsAzfDfclbmBjXYV9R_iBT0SZR93Zy/view?usp=sharing)
+    * [ApplicationSWC 와 ActuatorSWC 구조 분석](https://drive.google.com/file/d/1h5ZXgE6YqYwHa2Ez2xnHFSWZSa9O7Cby/view?usp=sharing)
+
+
+
 * [마이크로컨트롤러용 소프트웨어의 구조적 특징](uControllerFeatures.md) - 하위설계, HAL과의 연결
   
-  * 2
+    **[강의 영상]**
     
-    * Interrupt
+    * [Microcontroller의 구조](https://drive.google.com/file/d/1D1VFABJH4zWb031hw-VDt5dw-gjW92uR/view?usp=sharing)
+    * [외부 사건 처리 방법](https://drive.google.com/file/d/1x7fhCXcEFfXJKDLNpNPsPjsXrvMKH1xl/view?usp=sharing)
     
-  * Time 관련
+    **[실습 영상]**
+    
+    * [단위 시험을 위한 환경 구축 방법, Mock-Up](https://drive.google.com/file/d/10gO9lK0jw1aAgqJw7ju03JiklemCVP72/view?usp=sharing)
+* [SensorSWC - MeasureBeltTension 코드 분석](https://drive.google.com/file/d/1TG-dEI4hs295DwqyH2d9HCwKuL7tGVla/view?usp=sharing)
+    
+  **[연습 영상]**
   
-      * Multi-rate
-      * time triggered
+  * [SensorSWC, ActuatorSWC 기능 구현](https://drive.google.com/file/d/1Xv3SXLclULKAxrZFZQZeoZzU7Iec1QxF/view?usp=sharing)
   
-  * Memory 관련
   
-      * volatile
-      * const vs. #define
-      * linker script
-  
-      
   
 * [동작과 자료, 그리고 트리거](BehaviorDataTrigger.md) - 하위설계, App 설계
+  
+    **[강의 영상]**
+    
+    * [동작과 데이타, 그리고 객체](https://drive.google.com/file/d/14gFxS0aSWmVONhztlyz6i_wZp4oXDOPm/view?usp=sharing)
+    * [함수 호출과 Trigger](https://drive.google.com/file/d/136bfiHLitqsFWcfTevOgf5w3nH1wceDj/view?usp=sharing)
+    * [예제 구조의 설명](https://drive.google.com/file/d/1UB_1T2RAbZmQppbTW-moeRvr3H53u-_Y/view?usp=sharing)
+    
+    **[실습 영상]**
+    
+    * [ApplicationSWC - CheckError() 코드 분석](https://drive.google.com/file/d/1SMjbWbwfOgLRU_9zAPUJWQNW1crwuw8l/view?usp=sharing)
+    
+    **[연습영상]**
+    
+    * [ApplicationSWC - ControlState() 기능 구현](https://drive.google.com/file/d/1RjPTgTF0p1qORD9A3TpgLJGT3wFTv9tU/view?usp=sharing)
+    
+    
 
-    * 인터페이스와 트리거링
-        * 4.4, 4.5
 
 * [운영체계와 스케쥴링](StaticSche.md) - OS Integration
   
-    * 태스크 설명 추가, 태스크 다이어그램
-    * [xmc multi-rate scheduler](https://xmctutorial.readthedocs.io/ko/latest/ProgSystemTimerScheduler/index.html)
-    * [aurix multiple infinite loops](https://aurixtutorial.readthedocs.io/ko/latest/MultipleInfiniteLoops/index.html)
-    * 4.6
+    **[강의 영상]**
+    
+    * [Task와 Scheduler](https://drive.google.com/file/d/1Um0yAoTekPtPTO52jJGZB3hv0qRuKHF4/view?usp=sharing) (in XMC Tutorial)
+    * [Interrupt와 Scheduler](https://drive.google.com/file/d/1kV4IVsf8exh7cg4LM5M9tuRNK6El1AcS/view?usp=sharing) (in XMC Tutorial)
+    * [Static Cyclic Scheduler](https://drive.google.com/file/d/1_O12IdvWccj77IUbqQTeJ8hzNS_9RYZb/view?usp=sharing) (in XMC Tutorial)
+    * [Scheduler의 종류](https://drive.google.com/file/d/1S1Xegr5t-4RDMNKtxcPJABejRFy2HMha/view?usp=sharing)
+    * [자료의 공유시 발생하는 문제들](https://drive.google.com/file/d/1cUXXhU1qqHe1qoDGYlkt85rhDuEYktRr/view?usp=sharing)
+    
+    **[실습 영상]**
+    
+    * [Static Cyclic Scheduler in PC](https://drive.google.com/file/d/1VpzXCs1oLRT8HLWzDq0wp6b2N8x8cOAa/view?usp=sharing)
+    * [실시간 설계와 구현]()
 
 
 
-* **[example]** MoBeE
